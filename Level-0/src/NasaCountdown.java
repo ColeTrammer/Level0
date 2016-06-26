@@ -34,7 +34,7 @@ public class NasaCountdown {
 		speak("BOOM!!!!!!!");
 	}
 
-	static void speak(String words) {
+	public static void speak(String words) {
 		try {
 			Runtime.getRuntime().exec("say " + words).waitFor();
 		} catch (Exception e) {
