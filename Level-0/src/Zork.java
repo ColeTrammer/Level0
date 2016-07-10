@@ -27,7 +27,7 @@ public class Zork {
 					if (answer.equalsIgnoreCase("up"))
 						answer = JOptionPane.showInputDialog("You find an unpassable wall.");
 					if (answer.equalsIgnoreCase("down")) {
-						answer = JOptionPane.showInputDialog("You find a scary monster in your path! Turn back");
+						answer = JOptionPane.showInputDialog("You find a scary monster in your path!");
 						if (answer.equalsIgnoreCase("down")) {
 							answer = JOptionPane.showInputDialog("You slay the monster with your magical stick!\nYou are free to continue!");
 							if (answer.equalsIgnoreCase("up")) {
